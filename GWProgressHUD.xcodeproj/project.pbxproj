@@ -12,6 +12,7 @@
 		408B94731DAB779700964964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408B94711DAB779700964964 /* Main.storyboard */; };
 		408B94751DAB779700964964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408B94741DAB779700964964 /* Assets.xcassets */; };
 		408B94781DAB779700964964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408B94761DAB779700964964 /* LaunchScreen.storyboard */; };
+		408B94801DAB813F00964964 /* GWProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B947F1DAB813F00964964 /* GWProgressHUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		408B94741DAB779700964964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		408B94771DAB779700964964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		408B94791DAB779700964964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408B947F1DAB813F00964964 /* GWProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GWProgressHUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				408B946D1DAB779700964964 /* AppDelegate.swift */,
 				408B946F1DAB779700964964 /* ViewController.swift */,
+				408B947F1DAB813F00964964 /* GWProgressHUD.swift */,
 				408B94711DAB779700964964 /* Main.storyboard */,
 				408B94741DAB779700964964 /* Assets.xcassets */,
 				408B94761DAB779700964964 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				408B94701DAB779700964964 /* ViewController.swift in Sources */,
 				408B946E1DAB779700964964 /* AppDelegate.swift in Sources */,
+				408B94801DAB813F00964964 /* GWProgressHUD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
